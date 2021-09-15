@@ -1,0 +1,595 @@
+
+body{
+    margin: 0%;
+    background-color: black;
+}
+header{
+    background-image: url(./images/sur\ scene.jpg);
+    height: 500px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#logo-img{
+    display: flex;
+    justify-content: last baseline;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    /* border-radius: 100%; */
+    /* padding: 30px; */
+    /* border: rgb(63, 62, 7) solid 3px;
+    background-color: black;   */
+}
+.container-fluid{
+    background-color: rgb(117, 117, 80);
+}
+.navbar-nav{
+    padding: 10px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: white;
+    margin: 10px;
+}
+/* .nav-link button:hover a{
+    color: white;
+    background-color: rgb(27, 15, 97);
+    transition: 3s; all;
+
+} */
+
+/* .menu-nav ul li.btn a{
+    padding: 15px;
+    border-radius: 80px;
+    color: rgb(97, 15, 72);
+    background-color: white;
+    text-decoration: none;
+    border: solid rgb(97, 15, 72) 3px;
+}
+.menu-nav ul li.btn:hover a{
+    color: white;
+    background-color: rgb(97, 15, 72);
+    transition: 3s; all;
+} */
+h1{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 4px 1px #919191,
+    1px 5px 1px #919191,
+    1px 6px 1px #919191,
+    1px 7px 1px #919191,
+    1px 8px 1px #919191,
+    1px 9px 1px #919191,
+    1px 10px 1px #919191,
+1px 18px 6px rgba(16,16,16,0.4),
+1px 22px 10px rgba(16,16,16,0.2),
+1px 25px 35px rgba(16,16,16,0.2),
+1px 30px 60px rgba(16,16,16,0.4);;
+}
+#phrase-header{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(97, 15, 72);
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+    /* margin-top: 120px; */
+    font-weight: bold;
+  
+}   
+.lam{
+    margin-top: 20px;
+    /* border: solid 3px rgb(109, 98, 33; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;   
+    padding: 20px;
+}
+/* .................................animation ki defile............................... */
+.animation-pub{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-bottom: darkkhaki solid 1px;
+    border-top: darkkhaki solid 1px;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    /* background-color: rgb(131, 33, 87); */
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    white-space: nowrap; 
+    /* pour continuer sur la meme ligne ca ne reviendra pas sur la ligne  */
+    font-size: 50px;
+    animation: scrolltxt 10s linear infinite;
+}
+
+@keyframes scrolltxt{
+    0%{
+        transform: translate(0%, 0);
+    }
+    30%{
+        color: white;
+    }
+    50%{
+        color:  white;
+        
+    }
+    100%{
+        transform: translate(-100%, 0);
+        color: white;
+    }
+}
+
+/* .........................................CSS ARENA LIEN ......................................... */
+#accor-eve{
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    border: 1px solid white;
+    border-radius: 5px;
+    /* display: flex;
+    justify-content: space-around;
+    padding: 40px; */
+    /* background-image: url(./images/LOGO\ ACCOR\ H.png); */
+}
+/* #image-fond-affiche{
+    background-image: url(./images/ACCOR.jpg);
+} */
+#affiche{
+    margin-left: 100px;
+    padding: 40px;
+    height: 100%;
+    width: 50%;
+}
+#lien{
+    height: 90%;
+    width: 50%;
+    /* width: 300%; */
+    padding: 50px;
+    /* background-image: url(./images/LOGO\ ACCOR\ H.png); */
+    /* width: 40%; */
+    background-image: url(./images/LAM\ 123.jpg);
+}
+.liens{
+    padding: 20px;
+    background-color: rgba(255, 255, 254, 0.719);
+    color: rgb(68, 30, 156);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#bienvennu{
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-image: url(./NOTE.png);
+    height: 600px;
+}
+#artiste-bienvennu{
+    width: 60%;
+    height: auto;
+}
+#evenement-2022{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* .....................................css bio........................................................................................................ */
+#section-bio{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+#bloc-bio{
+    margin-top: 10px;
+    height: 450px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+}
+
+.bio-ait{
+    border-left: olive solid 1px;
+    border-right: olive solid 1px;
+    text-align: justifys;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.089);
+    padding:20px;
+    color: black;
+}
+hr{
+    height: 6px;
+    width: 500px;
+    color: blue;
+    border: solid;
+    
+}
+#biographie{
+    padding: 200px;
+    height: 90%;
+    width: 40%;
+    /* height: 40%;
+    width: 40%; */
+    /* background-color: blanchedalmond; */
+}
+
+h4{
+    font-style: italic;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    color:blue;
+}
+#img-design{
+    /* padding: 10px; */
+    width: 40%;
+    height: 100%;
+}
+#bio-image{
+    border-radius: 10px;
+}
+
+/* #caroussel{
+    background-color: thistle;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(8, 27, 133);
+} */
+/* ..................................................css...vdo...................................................................... */
+/* 
+#dernier-album{
+    display: flex;
+    justify-content: center;
+    /* background-image: url(./Turntable\ -\ 14054.mp4); */
+#massy-video{
+    width: 90%;
+    height: 100%;
+    padding: 5px;
+    
+}
+#bio-video{
+    padding: 10px;
+    height: 600px;
+    background-image: url(./NOTE.png);
+} 
+/* #zenith-image{
+    height: 100%;
+    width: 100%;
+} */
+#zenith{
+    padding: 120px;
+    /* background-image: url(./png\ zenith\ 2017.png); */
+}
+
+#vdo-rosa{
+    margin-left: 70px;
+    width: 90%;
+    /* border: solid 3px white; */
+    padding: 30px;
+    
+}
+#emissions-div{
+    border: solid 10px wheat;
+}
+#spot{
+    border: solid 10px wheat;
+    padding: 20px;
+    margin-left: 15px;
+}
+#rosa{
+    padding: 30px;
+}
+#rosa-tv{
+    background-color: rgba(255, 255, 255, 0.356);
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-align: center;
+    padding: 60px;
+    color: rgb(32, 15, 131);
+}
+#cap{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url(./ROSA\ LAM.jpg)
+}
+#carouselExampleSlidesOnly{
+    padding: 20px;
+    
+    /* margin-top: 40px; */
+    /* height: 200px; */
+}
+#caroussel-galerie{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* ......................................................css formulaire.......................................................................... */
+.contact-form{
+    margin: 50px;
+	display: flex;
+    justify-content: center;
+    margin-left: 350px;
+	/* justify-content: center; */
+	/* position: absolute; */
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: solid 2px rgb(54, 54, 19);
+	display: inline-block;
+	padding: 20px;
+	/* background-color: rgba(255, 252, 208, 0.575); */
+	/* background-image: url(./images/M.jfif); */
+	border-radius: 60px;
+    background-color: white;
+} 
+h3{
+    font-style: italic;
+    color: black;
+    padding: 10px;
+}
+.contact-input{
+    font-size: 20px;
+    color: rgb(6, 6, 70);
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+#message{
+    background-color: white;
+    background-image: url(./images/TRES-CLAIR-3.png);
+    color: black;
+    height: 400px;
+    width: 90%;
+    border-color: rgb(109, 98, 33);
+    border-radius: 5px;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.contact-msg{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    margin-right: 80px;
+}
+
+
+
+/* .......................................css footer ......................... */
+footer{
+    height: 350px;
+    background-image: url(./images/LAM\ 123\ V.jpg);
+}
+#fin{
+    margin: bottom 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(46, 58, 221, 0.233);
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    /* background-color: white; */
+}
+.liens-sociaux{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding: 10px;
+}
+#menu-reseau{
+    width: 200px;
+    /* background-color: rgba(255, 255, 255, 0.233); */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.navbar-brand img{
+    border-radius: 10px;
+    padding: 5px;
+}
+.navbar-brand{
+    padding: 10px;
+}
+
+ 
+/* .....................................css.....media-querries.................... */
+
+@media (max-width: 800px ){
+    #phrase-header{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 30px;
+    }
+    #affiche{
+        width: 100%;
+        margin-left: 0;
+    }
+    #lien{
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+    #img-design{
+        /* padding: 20px; */
+        width: 100%;
+       
+    }
+    #biographie{
+        padding: 10px;
+        height: auto;
+        width: 90%;   
+        margin-bottom: 150px;
+    }
+    h4{
+        margin-left: 20px;
+        padding: 5px;
+        font-size: 40px;
+        height: 50%.        
+    }
+    hr{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 1px;
+        width: 300px;
+    }
+    .bio-ait{
+        padding:20px;
+        margin-top: 120px;
+    }
+    #rosa{
+        padding: 5px;
+    }
+    #rosa-tv{
+        font-size: 20px;
+        padding: 10px;
+    }
+    #cap{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #vdo-rosa{
+        /* margin-left: 70px; */
+        width: 100%;
+        /* border: solid 3px white; */
+        padding: 5px;
+        width="300" height="250"
+    }
+    #emissions-div{
+        /* border: solid 3px wheat; */
+    }
+    #spot{
+        border: solid 3px wheat;
+        padding: 5px;
+        width="300" height="250"
+    }
+    #message{
+        background-color: white;
+        height: 200px;
+        width: 100%;
+        font-style: italic;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .contact-msg{
+        border-color: white;
+        width: 400px;
+        height: 350px;
+        /* border-radius: 100%;
+        margin-right: 80px; */
+    }
+    /* footer{
+        width: 100%;
+    } */
+}
+
+@media (max-width: 400px ){
+    #phrase-header{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .text{
+        font-size: 20px;
+    }  
+    #affiche{
+        width: 100%;
+        margin-left: 0;
+    }
+    #biographie{
+        padding: 10px;
+        height: 50%;
+        width: 90%;   
+    }
+    h4{
+        margin-left: 20px;
+        font-size: 20px;
+        padding: 1px;
+    }
+    hr{
+        margin-right: 20px;
+        margin-left:20px;
+        width: 150px;
+    }
+    .bio-ait{
+        margin-left:20px;
+        margin-right:20px;
+        margin-top: 120px;
+    }
+    #rosa{
+        padding: 5px;
+    }
+    #rosa-tv{
+        font-size: 15px;
+        padding: 5px;
+    }
+    #cap{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #vdo-rosa{
+        width: 100%;
+        padding: 5px;
+        /* width:"300" height: auto; */
+    }
+    #spot{
+        padding: 5px;
+        /* width="300" height="250" */
+    }
+    #message{
+        background-color: white;
+        height: 200px;
+        width: 100%;
+        font-style: italic;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .contact-msg{
+        border-color: white;
+        width: 300px;
+        height: 350px;
+        /* border-radius: 100%;
+        margin-right: 80px; */
+    }
+}
